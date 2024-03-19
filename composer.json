@@ -1,0 +1,29 @@
+{
+    "name": "sheryan-eu/laravel-popo",
+    "description": "Plain Old PHP Object",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "10",
+        "laravel/helpers": "1.6"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "nunomaduro/collision": "^6.2",
+        "nunomaduro/larastan": "^2.1",
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheryan",
+            "email": "sheryan_eu@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SheryanEu\\LaravelPopo\\": "src/"
+        }
+    }
+}
